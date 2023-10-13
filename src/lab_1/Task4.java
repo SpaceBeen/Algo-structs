@@ -3,21 +3,27 @@ package lab_1;
 
 import java.util.Scanner;
 
-public class Task3 {
+public class Task4 {
     Scanner scanner = new Scanner(System.in);
     int size; // Размер массива
-    int sum; // Сумма элементов массива
+    int max; // Максимальный элемент массива
+    int min; // Минимальный элемент массива
+    int sum_while = 0;
+    int sum_do_while = 0;
     int[] numbers; // Массив
-    double average; // Среднее арифметическое элементов массива
 
     public void runTask() {
         size = inputArraySize();
         numbers = fillArray(size);
-        sum = sumOfArrayElements(numbers);
-        average = (double) sum / size;
+        max = findMaxElementOfArray(numbers);
+        min = findMinElementOfArray(numbers);
+        sum_while = sumOfArrayElementsUsingWhile(numbers);
+        sum_do_while = sumOfArrayElementsUsingDoWhile(numbers);
 
-        System.out.println("Сумма элементов массива: " + sum);
-        System.out.println("Среднее арифметическое элементов массива: " + average);
+        System.out.println("Сумма элементов массива 1: " + sum_while);
+        System.out.println("Сумма элементов массива 2: " + sum_do_while);
+        System.out.println("Максимум: " + max);
+        System.out.println("Минимум: " + min);
 
         scanner.close();
     }
@@ -61,21 +67,55 @@ public class Task3 {
         return array;
     }
 
-    public int sumOfArrayElements(int[] array) {
+    public int findMaxElementOfArray(int[] array) {
+        int max = 0;
+        if (array != null) {
+            max = array[0];
+
+            for (int element : array) {
+                max = (element > max) ? element : max;
+            }
+        }
+
+
+        return max;
+    }
+
+    public int findMinElementOfArray(int[] array) {
+        int min = 0;
+        if (array != null) {
+            min = array[0];
+
+            for (int element : array) {
+                min = (element < min) ? element : min;
+            }
+        }
+        return min;
+    }
+
+    public int sumOfArrayElementsUsingWhile(int[] array) {
+        int i = 0;
         int sum = 0;
-        for (int element : array) {
-            sum += element;
+        if (array != null) {
+            while (i != array.length) {
+                sum += array[i];
+                i++;
+            }
         }
 
         return sum;
     }
 
-    public static void printArray(int[] array) {
+    public int sumOfArrayElementsUsingDoWhile(int[] array) {
+        int i = 0;
+        int sum = 0;
         if (array != null) {
-            for (int elem : array) {
-                System.out.print(elem + " ");
-            }
+            do {
+                sum += array[i];
+                i++;
+            } while (i != array.length);
         }
-    }
 
+        return sum;
+    }
 }
