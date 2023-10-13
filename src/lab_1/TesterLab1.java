@@ -12,7 +12,7 @@ public class TesterLab1 {
 
         while (true) {
             try {
-                System.out.println("Введите число от 2 до 7:");
+                System.out.println("Введите число от 3 до 7:");
                 choice = scanner.nextInt();
 
                 if (choice >= 2 && choice <= 7) {

@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05e36c1f-5208-4ab3-a738-29f15a0ee60f" name="Changes" comment="preparing">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_1/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_1/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_1/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/Task5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_1/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/Task6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_1/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/Task7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_1/TesterLab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/TesterLab1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +27,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2WgQX2gvMS5nMEqZcxBJkpaZXsG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,16 +42,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/fazEN/IdeaProjects/mirea_ads_projects",
+    "last_opened_file_path": "C:/Users/FazEN/OneDrive/Рабочий стол/mirea_Algo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -78,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697151778189</updated>
       <workItem from="1697151779342" duration="4578000" />
+      <workItem from="1697158509597" duration="278000" />
     </task>
     <task id="LOCAL-00001" summary="preparing">
       <option name="closed" value="true" />
